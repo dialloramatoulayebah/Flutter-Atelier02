@@ -58,6 +58,39 @@ class MainApp extends StatelessWidget {
                   ),
                 ],
               ),
+
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Icon(Icons.home, color: Colors.brown, size: 40),
+                  Icon(
+                    Icons.star,
+                    color: const Color.fromARGB(255, 71, 230, 31),
+                    size: 40,
+                  ),
+                  Icon(
+                    Icons.settings,
+                    color: const Color.fromARGB(255, 196, 225, 8),
+                    size: 40,
+                  ),
+                  Icon(
+                    Icons.person,
+                    color: const Color.fromARGB(255, 196, 212, 225),
+                    size: 40,
+                  ),
+                ],
+              ),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Text('Titre principal', style: TextStyle(fontSize: 30)),
+                  SizedBox(height: 20),
+                  Text('Sous-titre ou description'),
+                  Icon(Icons.thumb_up, color: Colors.green, size: 40),
+                ],
+              ),
             ],
           ),
         ),
