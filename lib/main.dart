@@ -47,6 +47,17 @@ class MainApp extends StatelessWidget {
                   style: TextStyle(color: Colors.grey, fontSize: 18),
                 ),
               ),
+              Stack(
+                alignment: Alignment.topCenter,
+                children: [
+                  Container(width: 200, height: 200, color: Colors.blueGrey),
+                  Icon(Icons.star, size: 100, color: Colors.amberAccent),
+                  Text(
+                    "Superposé !",
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
